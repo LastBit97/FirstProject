@@ -1,9 +1,9 @@
 public class Dog implements Eater, MakeSound{
     private int hunger;
     private int age;
-    private int color;
+    private String color;
 
-    public Dog(int hunger, int age, int color) {
+    public Dog(int hunger, int age, String color) {
         this.hunger = hunger;
         this.age = age;
         this.color = color;
@@ -25,11 +25,11 @@ public class Dog implements Eater, MakeSound{
         this.age = age;
     }
 
-    public int getColor() {
+    public String getColor() {
         return color;
     }
 
-    public void setColor(int color) {
+    public void setColor(String color) {
         this.color = color;
     }
 
